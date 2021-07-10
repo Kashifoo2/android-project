@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9f7f6"
+    tools:context=".checkprofile">
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageview"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/imageview"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logotextview"
+        android:layout_below="@+id/imageview"
+        android:layout_centerHorizontal="true"
+        android:text="Logo "
+        android:textStyle="italic"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Leadertextview"
+        android:layout_below="@+id/logotextview"
+        android:text="Leader Name"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaderedittext"
+        android:layout_below="@+id/logotextview"
+        android:layout_toRightOf="@+id/Leadertextview"
+        android:layout_alignBaseline="@+id/Leadertextview"
+        android:layout_marginLeft="22dp"
+        android:paddingRight="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/groupmembertextview"
+        android:layout_below="@+id/Leadertextview"
+        android:text="Group Members"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="25dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/groupmemberedittext"
+        android:layout_below="@+id/Leadertextview"
+        android:hint="Mention members"
+        android:layout_toRightOf="@+id/groupmembertextview"
+        android:layout_alignBaseline="@+id/groupmembertextview"
+        android:layout_marginLeft="10dp"
+        android:paddingRight="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stallid"
+        android:layout_below="@+id/groupmembertextview"
+        android:text="Stall Location id"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="10dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stallidedittext"
+        android:layout_below="@+id/groupmembertextview"
+        android:hint=" Stall Location id"
+        android:layout_toRightOf="@+id/stallid"
+        android:layout_alignBaseline="@+id/stallid"
+        android:layout_marginLeft="15dp"
+        android:paddingRight="80dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stallnametextview"
+        android:layout_below="@+id/stallid"
+        android:text="Stall Name"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="10dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stallnameedittext"
+        android:layout_below="@+id/stallid"
+        android:hint="Please Enter"
+        android:layout_toRightOf="@+id/stallnametextview"
+        android:layout_alignBaseline="@+id/stallnametextview"
+        android:layout_marginLeft="15dp"
+        android:paddingRight="80dp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuitems"
+        android:layout_below="@+id/stallnametextview"
+        android:text="Menu items"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="10dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuitemedittext"
+        android:layout_below="@+id/stallnametextview"
+        android:hint="Please Enter"
+        android:layout_toRightOf="@+id/menuitems"
+        android:layout_alignBaseline="@+id/menuitems"
+        android:layout_marginLeft="15dp"
+        android:paddingRight="80dp"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Semester"
+        android:layout_below="@+id/menuitems"
+        android:text="Semester"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="10dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/semesteredittext"
+        android:layout_below="@+id/menuitems"
+        android:hint="Enter semester"
+        android:layout_toRightOf="@+id/Semester"
+        android:layout_alignBaseline="@+id/Semester"
+        android:layout_marginLeft="15dp"
+        android:paddingRight="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fieldofstudy"
+        android:layout_below="@+id/Semester"
+        android:text="Field of Study"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fieldofstudyeditext"
+        android:layout_below="@+id/Semester"
+        android:hint="Enter field"
+        android:layout_toRightOf="@+id/fieldofstudy"
+        android:layout_alignBaseline="@+id/fieldofstudy"
+        android:layout_marginLeft="15dp"
+        android:paddingRight="80dp"
+        />
+
+
+
+</RelativeLayout>

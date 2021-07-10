@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9f7f6"
+
+    tools:context=".guestsignup">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="Welcome to Business Fest"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:background="#e1ecfa"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginTop="150dp"
+        android:hint="enter email"
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:background="#e1ecfa"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:hint="Password"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/savebutton"
+        android:layout_below="@+id/password"
+        android:text="Save"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:onClick="Save"
+        />
+
+
+</RelativeLayout>

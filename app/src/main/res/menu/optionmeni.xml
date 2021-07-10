@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<item android:id="@+id/signout"
+    android:title="Signout"
+    android:icon="@drawable/signout"
+    app:showAsAction="ifRoom"
+    />
+
+<item android:id="@+id/profiles"
+    android:title="profile"
+    android:icon="@drawable/profile"
+    app:showAsAction="ifRoom"
+/>
+
+    <item android:id="@+id/seeproifile"
+        android:title="see"
+        android:icon="@drawable/see"
+        app:showAsAction="ifRoom"
+     />
+
+
+</menu>
